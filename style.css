@@ -19,3 +19,10 @@ img {
   width: 58px;
   height: 58px;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  width: 50%;
+}
