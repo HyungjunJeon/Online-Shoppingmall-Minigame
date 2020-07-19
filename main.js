@@ -24,3 +24,62 @@ for (let i = 0; i < clothes.length; i++) {
   item.appendChild(image);
   item.appendChild(description);
 }
+
+let filteredClothes = [];
+const shirtBtn = document.querySelector(".menu1");
+shirtBtn.addEventListener("click", () => {
+  filterClothes("_t");
+  sortClothes(filteredClothes);
+});
+const pantsBtn = document.querySelector(".menu2");
+pantsBtn.addEventListener("click", () => {
+  filterClothes("_p");
+  sortClothes(filteredClothes);
+});
+const skirtBtn = document.querySelector(".menu3");
+skirtBtn.addEventListener("click", () => {
+  filterClothes("_s");
+  sortClothes(filteredClothes);
+});
+const blueBtn = document.querySelector(".menu4");
+blueBtn.addEventListener("click", () => {
+  filterClothes("blue");
+  sortClothes(filteredClothes);
+});
+const yellowBtn = document.querySelector(".menu5");
+yellowBtn.addEventListener("click", () => {
+  filterClothes("yellow");
+  sortClothes(filteredClothes);
+});
+const pinkBtn = document.querySelector(".menu6");
+pinkBtn.addEventListener("click", () => {
+  filterClothes("pink");
+  sortClothes(filteredClothes);
+});
+
+function filterClothes(string) {
+  filteredClothes = clothes.filter((array) => {
+    return array[0].includes(string);
+  });
+  return filteredClothes;
+}
+
+function sortClothes(array) {
+  while (list.hasChildNodes()) {
+    list.removeChild(list.firstChild);
+  }
+
+  for (let i = 0; i < array.length; i++) {
+    const item = document.createElement("div");
+    item.setAttribute("class", "item");
+    const image = document.createElement("img");
+    image.setAttribute("class", "image");
+    const description = document.createElement("span");
+    description.setAttribute("class", "description");
+    list.appendChild(item);
+    image.src = array[i][0];
+    description.innerText = array[i][1];
+    item.appendChild(image);
+    item.appendChild(description);
+  }
+}
