@@ -26,3 +26,36 @@ header {
   margin-top: 64px;
   width: 50%;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 32px;
+  width: 50%;
+}
+
+nav button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+nav .menu4,
+nav .menu5,
+nav .menu6 {
+  width: 64px;
+  height: 48px;
+}
+
+nav .menu4 {
+  background-color: var(--blue-color);
+}
+
+nav .menu5 {
+  background-color: var(--yellow-color);
+}
+
+nav .menu6 {
+  background-color: var(--pink-color);
+}
