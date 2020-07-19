@@ -1,0 +1,21 @@
+:root {
+  --background-color: #37474f;
+  --blue-color: #0d47a1;
+  --yellow-color: #ffd600;
+  --pink-color: #ff4081;
+  --white-color: #fafafa;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--background-color);
+  align-items: center;
+}
+
+img {
+  width: 58px;
+  height: 58px;
+}
