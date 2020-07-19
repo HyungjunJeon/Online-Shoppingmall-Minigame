@@ -59,3 +59,31 @@ nav .menu5 {
 nav .menu6 {
   background-color: var(--pink-color);
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 50%;
+  height: 650px;
+  overflow: scroll;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list .item {
+  display: flex;
+  margin: 16px 24px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: var(--white-color);
+}
+
+.list .item img {
+  margin: 0 12px;
+}
+.list .item .description {
+  align-self: center;
+}
