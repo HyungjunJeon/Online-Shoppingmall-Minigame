@@ -27,7 +27,7 @@ header {
   width: 50%;
 }
 
-nav {
+.buttons {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -35,28 +35,26 @@ nav {
   width: 50%;
 }
 
-nav button {
+.buttons button {
   border: none;
   background-color: transparent;
   padding: 0;
 }
 
-nav .menu4,
-nav .menu5,
-nav .menu6 {
+.buttons .colorBtn {
   width: 64px;
   height: 48px;
 }
 
-nav .menu4 {
+.buttons .blue {
   background-color: var(--blue-color);
 }
 
-nav .menu5 {
+.buttons .yellow {
   background-color: var(--yellow-color);
 }
 
-nav .menu6 {
+.buttons .pink {
   background-color: var(--pink-color);
 }
 
