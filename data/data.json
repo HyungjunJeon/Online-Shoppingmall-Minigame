@@ -2,7 +2,7 @@
   "items": [
     {
       "type": "pants",
-      "gender": "man",
+      "gender": "male",
       "size": "small",
       "color": "blue",
       "image": "Images/blue_p.png"
@@ -16,7 +16,7 @@
     },
     {
       "type": "tshirt",
-      "gender": "man",
+      "gender": "male",
       "size": "small",
       "color": "blue",
       "image": "Images/blue_t.png"
@@ -44,14 +44,14 @@
     },
     {
       "type": "pants",
-      "gender": "man",
+      "gender": "male",
       "size": "large",
       "color": "yellow",
       "image": "Images/yellow_p.png"
     },
     {
       "type": "skirt",
-      "gender": "man",
+      "gender": "female",
       "size": "large",
       "color": "yellow",
       "image": "Images/yellow_s.png"
