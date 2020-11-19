@@ -10,9 +10,10 @@
  ------------------------------
  <table>
  <tr>
-  <td><img src="https://user-images.githubusercontent.com/65811799/98467901-4ad70900-221b-11eb-8a5c-d44254045c7c.PNG" width="350" height="300"></td>
-  <td><img src="https://user-images.githubusercontent.com/65811799/98467971-ab664600-221b-11eb-93e5-6da62224ea98.PNG" width="350" heigth="300"></td>
-  <td><img src="https://user-images.githubusercontent.com/65811799/98468071-27f92480-221c-11eb-8e1d-d7c661d347c2.PNG" width="350" height="300"></td>
+  <td><img src="https://user-images.githubusercontent.com/65811799/98467901-4ad70900-221b-11eb-8a5c-d44254045c7c.PNG" width="250" height="300"></td>
+  <td><img src="https://user-images.githubusercontent.com/65811799/98467971-ab664600-221b-11eb-93e5-6da62224ea98.PNG" width="250" heigth="300"></td>
+  <td><img src="https://user-images.githubusercontent.com/65811799/98468071-27f92480-221c-11eb-8e1d-d7c661d347c2.PNG" width="250" height="300"></td>
+  <td><img src="https://user-images.githubusercontent.com/65811799/99514666-5b337480-29cf-11eb-88c9-a7e6491c55fd.png"  width=150" height="300"></td>
  </tr>
 </table>
 
