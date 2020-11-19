@@ -16,14 +16,14 @@ body {
 }
 
 img {
-  width: 58px;
-  height: 58px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 header {
   display: flex;
   justify-content: center;
-  margin-top: 64px;
+  margin-top: 4rem;
   width: 50%;
 }
 
@@ -31,7 +31,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 32px;
+  margin-top: 2rem;
   width: 50%;
 }
 
@@ -49,8 +49,8 @@ header {
 }
 
 .buttons  .colorBtn {
-  width: 64px;
-  height: 48px;
+  width: 4rem;
+  height: 2.5rem;
 }
 
 .buttons .blue {
@@ -70,7 +70,7 @@ header {
   flex-direction: column;
   align-content: center;
   width: 50%;
-  height: 650px;
+  height: 40.625rem;
   overflow: scroll;
 }
 
@@ -80,14 +80,14 @@ header {
 
 .list .item {
   display: flex;
-  margin: 16px 24px;
-  padding: 8px 12px;
-  border-radius: 4px;
+  margin: 1rem 1.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
   background-color: var(--white-color);
 }
 
 .list .item img {
-  margin: 0 12px;
+  margin: 0 0.75rem;
 }
 .list .item .description {
   align-self: center;
@@ -101,6 +101,6 @@ header {
   .imgBtns,
   .colorBtns {
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
   }
 }
